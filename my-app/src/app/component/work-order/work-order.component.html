@@ -1,6 +1,11 @@
 <div class="header">
-    <h1>Work Order</h1>
+  <div class="divider"><span></span><span>WorkOrder Management</span><span></span></div>
 </div>
+<!-- 
+<div class="report-btn">
+  <button class="button-70" role="button">Generate report</button>
+  <button class="button-70" role="button">Generate report</button>
+</div> -->
 <!-- 
 <div class="tabBar justify-content-cente">
     <mat-tab-group class="tabGrp">
@@ -42,6 +47,8 @@
             <label for="tab-1" class="tab-label">Internal WorkOrder Details</label>
             <div class="tab-content">
 
+              
+              
                 <div class="contentBody">
                 <div class="Sdp">
                     <div class="search-container">
@@ -59,14 +66,23 @@
                 </div>
 
                 <div id="wrapper1">
-                    
+                  <div class="crd-btn">
+                    <div class="report-btn">
+                      <button class="button-70" role="button">Add WorkOrder</button>
+                    </div>
+                    <div class="report-btn2">
+                      <button class="button-70" role="button">Generate report</button>
+                    </div>
+                  </div>
+                  
                     <table id="keywords" cellspacing="0" cellpadding="0">
                       <thead>
                         <tr>
                           <th><span>WorkOrderID</span></th>
                           <th><span>GENERATED DATE</span></th>
                           <th><span>ASSIGN TO</span></th>
-                          <th><span>STATUS</span></th>		
+                          <th><span>STATUS</span></th>	
+                          <th><span>ACTIONS</span></th>	
 
                         </tr>
                       </thead>
@@ -76,36 +92,60 @@
                           <td>XXXXXXX</td>
                           <td>XXXXXXX</td>
                           <td>XXXXXXX</td>
+                          <td>
+                            <button type="button" class="button-70" role="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Edit</button>
+                            <button type="button" class="button-70" role="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Delete</button>
+                          </td>
                         </tr>
                         <tr>
                           <td class="lalign">HMSXXXXXXX</td>
                           <td>XXXXXXX</td>
                           <td>XXXXXXX</td>
                           <td>XXXXXXX</td>
+                          <td>
+                            <button type="button" class="button-70" role="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Edit</button>
+                            <button type="button" class="button-70" role="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Delete</button>
+                          </td>
                         </tr>
                         <tr>
                           <td class="lalign">92846XXXXXXXXX</td>
                           <td>XXXXXXX</td>
                           <td>XXXXXXX</td>
                           <td>XXXXXXX</td>
+                          <td>
+                            <button type="button" class="button-70" role="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Edit</button>
+                            <button type="button" class="button-70" role="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Delete</button>
+                          </td>
                         </tr>
                         <tr>
                           <td class="lalign">110XXXXXXX	</td>
                           <td>XXXXXXX</td>
                           <td>XXXXXXX</td>
                           <td>XXXXXXX</td>
+                          <td>
+                            <button type="button" class="button-70" role="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Edit</button>
+                            <button type="button" class="button-70" role="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Delete</button>
+                          </td>
                         </tr>
                         <tr>
                           <td class="lalign">109XXXXXXX</td>
                           <td>XXXXXXX</td>
                           <td>XXXXXXX</td>
                           <td>XXXXXXX</td>
+                          <td>
+                            <button type="button" class="button-70" role="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Edit</button>
+                            <button type="button" class="button-70" role="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Delete</button>
+                          </td>
                         </tr>
                         <tr>
                           <td class="lalign">45487XXXXXXX</td>
                           <td>XXXXXXX</td>
                           <td>XXXXXXX</td>
                           <td>XXXXXXX</td>
+                          <td>
+                            <button type="button" class="button-70" role="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Edit</button>
+                            <button type="button" class="button-70" role="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Delete</button>
+                          </td>
                         </tr>
                       </tbody>
                     </table>
@@ -131,8 +171,16 @@
                         <label class="DPLable" for="DPLable">To</label>
                         <input class="date_input" type="date">
                     </div> 
-
                 </div>
+                <div id="wrapper1">
+                  <div class="crd-btn">
+                    <div class="report-btn">
+                      <button class="button-70" role="button">Add WorkOrder</button>
+                    </div>
+                    <div class="report-btn2">
+                      <button class="button-70" role="button">Generate report</button>
+                    </div>
+                  </div>
 
                 <div id="wrapper1">
                     
@@ -142,6 +190,7 @@
                           <th><span>COMPANY</span></th>
                           <th><span>GENERATED DATE</span></th>
                           <th><span>ASSIGN TO</span></th>		
+                          <th><span>ACTIONS</span></th>		
                         </tr>
                       </thead>
                       <tbody>
@@ -149,34 +198,59 @@
                           <td class="lalign">351XXXXXX</td>
                           <td>XXXXXXX</td>
                           <td>XXXXXXX</td>
+                          <td>
+                            <button type="button" class="button-70" role="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Edit</button>
+                            <button type="button" class="button-70" role="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Delete</button>
+                          </td>
                         </tr>
                         <tr>
                           <td class="lalign">HMSXXXXXXX</td>
                           <td>XXXXXXX</td>
                           <td>XXXXXXX</td>
+                          <td>
+                            <button type="button" class="button-70" role="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Edit</button>
+                            <button type="button" class="button-70" role="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Delete</button>
+                          </td>
                         </tr>
                         <tr>
                           <td class="lalign">92846XXXXXXXXX</td>
                           <td>XXXXXXX</td>
                           <td>XXXXXXX</td>
+                          <td>
+                            <button type="button" class="button-70" role="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Edit</button>
+                            <button type="button" class="button-70" role="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Delete</button>
+                          </td>
                         </tr>
                         <tr>
                           <td class="lalign">110XXXXXXX	</td>
                           <td>XXXXXXX</td>
                           <td>XXXXXXX</td>
+                          <td>
+                            <button type="button" class="button-70" role="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Edit</button>
+                            <button type="button" class="button-70" role="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Delete</button>
+                          </td>
                         </tr>
                         <tr>
                           <td class="lalign">109XXXXXXX</td>
                           <td>XXXXXXX</td>
                           <td>XXXXXXX</td>
+                          <td>
+                            <button type="button" class="button-70" role="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Edit</button>
+                            <button type="button" class="button-70" role="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Delete</button>
+                          </td>
                         </tr>
                         <tr>
                           <td class="lalign">45487XXXXXXX</td>
                           <td>XXXXXXX</td>
                           <td>XXXXXXX</td>
+                          <td>
+                            <button type="button" class="button-70" role="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Edit</button>
+                            <button type="button" class="button-70" role="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Delete</button>
+                          </td>
                         </tr>
                       </tbody>
                     </table>
+                    
                    </div>
                 
             </div></div>
@@ -184,3 +258,4 @@
           
         </div>
       </div>
+      

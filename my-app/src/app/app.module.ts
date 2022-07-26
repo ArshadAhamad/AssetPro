@@ -24,6 +24,14 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { DatepickerComponent } from './materials/datepicker/datepicker.component';
 // import the TabModule for the Tab component
 import { TabModule } from '@syncfusion/ej2-angular-navigations';
+import { UserManagementComponent } from './component/user-management/user-management.component';
+import { AccountManagementComponent } from './component/account-management/account-management.component';
+import { ReportingComponent } from './component/reporting/reporting.component';
+import { SchedulingAndAlertComponent } from './component/scheduling-and-alert/scheduling-and-alert.component';
+import { AnalyticsComponent } from './component/analytics/analytics.component';
+import { KnowledgeHubUserBlogComponent } from './component/knowledge-hub-user-blog/knowledge-hub-user-blog.component';
+import { EMarketPlaceComponent } from './component/e-market-place/e-market-place.component';
+import { FooterComponent } from './meterials/footer/footer.component';
 
 
 
@@ -37,7 +45,15 @@ import { TabModule } from '@syncfusion/ej2-angular-navigations';
     LandingBannerComponent,
     AssteManagementComponent,
     WorkOrderComponent,
-    DatepickerComponent
+    DatepickerComponent,
+    UserManagementComponent,
+    AccountManagementComponent,
+    ReportingComponent,
+    SchedulingAndAlertComponent,
+    AnalyticsComponent,
+    KnowledgeHubUserBlogComponent,
+    EMarketPlaceComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
