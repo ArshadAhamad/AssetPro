@@ -1,1 +1,100 @@
-<p>account-management works!</p>
+
+<div class="header">
+    <!-- <h1>Asset Management</h1> -->
+    <div class="divider"><span></span><span>Account Management</span><span></span></div>
+</div>
+<div class="filters">
+
+    <div class="input-group">
+        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+      </div>
+    
+    <div class="input-group">
+        <select class="form-select" id="inputGroupSelect01">
+          <option selected>Choose...</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+      </div>
+      <button type="button" class="button-71" role="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Add new Schedule</button>
+      <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Add</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Name</th>
+        <th scope="col">Type</th>
+        <th scope="col">Position</th>
+      </tr>
+    </thead>
+    <tbody class="table-group-divider">
+      <tr>
+        <th scope="row">1</th>
+        <td>Mark</td>
+        <td>Sub Admin</td>
+        <td>
+            <div class="input-group mb-3">
+                <select class="form-select" id="inputGroupSelect01">
+                  <option selected>Choose...</option>
+                  <option value="1">Admin</option>
+                  <option value="2">Editor</option>
+                  <option value="3">Co-Editor</option>
+                </select>
+              </div>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Jacob</td>
+        <td>Supervisor</td>
+        <td>
+            <div class="input-group mb-3">
+                <select class="form-select" id="inputGroupSelect01">
+                  <option selected>Choose...</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td >Larry the Bird</td>
+        <td >Branch Manager</td>
+        <td>
+            <div class="input-group mb-3">
+                <select class="form-select" id="inputGroupSelect01">
+                  <option selected>Choose...</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+        </td>
+      </tr>
+      <button type="button" class="button-70" role="button">Save</button>
+    </tbody>
+</table>

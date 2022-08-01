@@ -1,0 +1,140 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:200);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+
+body { background: #FCF; }
+        
+  .divider {								/* minor cosmetics */
+      display: table; 
+      font-size: 24px; 
+      text-align: center; 
+      width: 75%; 						/* divider width */
+      margin: 40px auto;					/* spacing above/below */
+  }
+  .divider span { display: table-cell; position: relative; }
+  .divider span:first-child, .divider span:last-child {
+      width: 50%;
+      top: 13px;							/* adjust vertical align */
+      -moz-background-size: 100% 2px; 	/* line width */
+      background-size: 100% 2px; 			/* line width */
+      background-position: 0 0, 0 100%;
+      background-repeat: no-repeat;
+  }
+  .divider span:first-child {				/* color changes in here */
+      background-image: -webkit-gradient(linear, 0 0, 0 100%, from(transparent), to(#000));
+      background-image: -webkit-linear-gradient(180deg, transparent, #000);
+      background-image: -moz-linear-gradient(180deg, transparent, #000);
+      background-image: -o-linear-gradient(180deg, transparent, #000);
+      background-image: linear-gradient(90deg, transparent, #000);
+  }
+  .divider span:nth-child(2) {
+      color: #000; padding: 0px 5px; width: auto; white-space: nowrap;
+  }
+  .divider span:last-child {				/* color changes in here */
+      background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#000), to(transparent));
+      background-image: -webkit-linear-gradient(180deg, #000, transparent);
+      background-image: -moz-linear-gradient(180deg, #000, transparent);
+      background-image: -o-linear-gradient(180deg, #000, transparent);
+      background-image: linear-gradient(90deg, #000, transparent);
+  }
+
+
+.button-70 {
+    background-image: linear-gradient(#0dccea, #0d70ea);
+    border: 0;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, .3) 0 5px 15px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: Montserrat,sans-serif;
+    font-size: .9em;
+    margin: 5px;
+    padding: 10px 15px;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    height: 40px;
+    width: 10%;
+
+    margin-left: 45%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.button-70:hover{
+    background-color: var(--primary-color);
+    color: rgb(12, 12, 12);
+}
+
+/* date picker */
+
+[type="date"] {
+    background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat ;
+  }
+  [type="date"]::-webkit-inner-spin-button {
+    display: none;
+  }
+  [type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+  }
+  
+  /* custom styles */
+  body {
+    padding: 4em;
+    background: #e5e5e5;
+    font: 13px/1.4 Geneva, 'Lucida Sans', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+  }
+  label {
+    display: block;
+  }
+  input {
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 3px 5px;
+    box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
+    width: 190px;
+  }
+
+  .filters{
+    display: flex;
+    margin-left: 15%;
+  }
+
+  .date{
+    width: 25%;
+    height: 40px;
+    margin-right: 10px;
+  }
+  .input-group{
+    width: 25%;
+    height: 40px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .form-control{
+    height: 40px;
+  }
+
+  .schedule{
+    padding: 10px;
+    margin-left: 15%;
+    margin-right: 5%;
+    justify-content: center;
+    background-color: #c1d4d7;
+    width: 70%;
+  }
+.card{
+    margin: 10px;
+}
+.btn{
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+}
+.topic{
+    margin-left: 15%;
+    margin-top: 20px;
+}
